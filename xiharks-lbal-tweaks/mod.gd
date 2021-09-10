@@ -14,5 +14,5 @@ func load(modloader: Reference, mod_info, tree: SceneTree):
     modloader.add_symbol_patch("res://xiharks-lbal-tweaks/patches/Wolf.gd")
     #Removed Symbols
 
-func modify_starting_symbols(current):
-    return ["turtle", "turtle", "turtle", "turtle", "turtle", "rabbit", "rabbit", "rabbit", "rabbit", "rabbit"]
+#func modify_starting_symbols(current):
+    #return ["turtle", "turtle", "turtle", "turtle", "turtle", "rabbit", "rabbit", "rabbit", "rabbit", "rabbit"]

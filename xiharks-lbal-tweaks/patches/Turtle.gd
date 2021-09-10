@@ -16,15 +16,13 @@ func add_conditional_effects(symbol, adjacent):
             rabbitcount += 1
     if rabbitcount >= symbol.values[value_index]:
         symbol.set_persistent_data("slow_bonus", symbol.get_persistent_data("slow_bonus") + 1)
-
+    
     var speed = 3
-    if symbol.get_persistent_data("last_times_displayed") > symbol.times_displayed and (symbol.get_persistent_data("last_times_displayed") == 2):
+    if modloader.globals.items.item_types.has("checkered_flag"):
         speed = 2
 
     if symbol.times_displayed == speed:
         symbol.add_effect(effect().change_value_bonus(symbol.get_persistent_data("slow_bonus")))
-
-    symbol.set_persistent_data("last_times_displayed", symbol.times_displayed)
 
 func patch_values(values, size):
     value_index = size

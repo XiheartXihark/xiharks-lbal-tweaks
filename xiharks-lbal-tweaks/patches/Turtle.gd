@@ -16,6 +16,7 @@ func add_conditional_effects(symbol, adjacent):
             rabbitcount += 1
     if rabbitcount >= symbol.values[value_index]:
         symbol.set_persistent_data("slow_bonus", symbol.get_persistent_data("slow_bonus") + 1)
+        symbol.add_effect(effect().animate("shake", 0, symbol))
     
     var speed = 3
     if modloader.globals.items.item_types.has("checkered_flag"):

@@ -11,7 +11,7 @@ func patch_description(description):
     
 func add_conditional_effects(symbol, adjacent):
     for i in adjacent:
-        symbol.add_effect_for_symbol(i, effect().if_type("rabbit").set_destroyed().animate("shake", [symbol, i]))
+        symbol.add_effect_for_symbol(i, effect().if_type("rabbit").set_destroyed().animate("shake", 0, [symbol, i]))
         symbol.add_effect_for_symbol(i, effect().if_type("rabbit").if_destroyed(true).set_target(symbol).add_permanent_bonus(symbol.values[0]))
 
 func patch_values(values, size):

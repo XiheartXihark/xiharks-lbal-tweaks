@@ -1,0 +1,9 @@
+{
+    "id": "xiharks-lbal-tweaks",
+    "version": "1.0.0",
+    "authors": ["Xihark"],
+    "name": "Xihark's Tweaks",
+    "description": "Adds new symbols to Luck be a Landlord",
+    "dependencies": [],
+    "load-after": []
+}

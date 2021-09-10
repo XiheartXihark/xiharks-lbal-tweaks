@@ -1,7 +1,7 @@
 # xiharks-lbal-tweaks
 Base game tweaks for Luck Be A Landlord
 
-#Version 1.0.1
+# Version 1.0.1
 - ![alt text](https://static.wikia.nocookie.net/luck-be-a-landlord/images/0/05/Cat.png/revision/latest/scale-to-width-down/24?cb=20210224153616) now destroys urns (does not effect big urns)
 
 # Version 1.0.0

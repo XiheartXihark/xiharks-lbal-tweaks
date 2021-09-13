@@ -1,6 +1,7 @@
 extends "res://modloader/SymbolPatcher.gd"
 
 var value_index: int
+var group : String
 
 func init(modloader: Reference, params):
     self.modloader = modloader

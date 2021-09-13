@@ -8,5 +8,5 @@ func init(modloader: Reference, params):
     self.group = params.group
 
 func patch_groups(groups):
-    groups.push_back(self.params.group)
+    groups.push_back(self.group)
     return groups

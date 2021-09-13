@@ -1,6 +1,8 @@
 # xiharks-lbal-tweaks
 Base game tweaks for Luck Be A Landlord
 
+To install, copy the xiharks-lbal-tweaks.zip (note, the included zip file, not a zip of this entire repo) into the mods folder located at %appdata%\Godot\app_userdata\Luck be a Landlord\mods for Windows (or the appropriate install path for other operating systems).
+
 # Version 1.0.2
 - ![alt text](https://static.wikia.nocookie.net/luck-be-a-landlord/images/b/bd/Cultist.png/revision/latest/scale-to-width-down/24?cb=20210821153153) Chance to convert reduced (6.25% -> 5%), will no longer attempt to convert adjacent humans on the same turn this symbol becomes a cultist
 

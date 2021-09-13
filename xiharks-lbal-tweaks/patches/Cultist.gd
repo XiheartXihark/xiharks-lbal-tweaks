@@ -24,3 +24,7 @@ func patch_values(values, value_index):
     self.value_index = value_index
     values.push_back(5)
     return values
+
+func patch_groups(groups):
+    groups.push_back("noconvert")
+    return groups

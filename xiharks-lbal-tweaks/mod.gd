@@ -17,7 +17,7 @@ func load(modloader: Reference, mod_info, tree: SceneTree):
     #Removed Symbols
 
     #Patchers
-    var noconvert = ["cultist", "general_zaroff", "toddler", "bounty_hunter"]
+    var noconvert = ["general_zaroff", "toddler", "bounty_hunter"]
     for i in noconvert:
         modloader.add_symbol_patch("res://" + mod_name + "/patches/GroupPatcher.gd", {"id": i, "group": "noconvert"})
 

@@ -1,6 +1,11 @@
 # xiharks-lbal-tweaks
 Base game tweaks for Luck Be A Landlord
 
+# Version 1.0.2
+- ![alt text](https://static.wikia.nocookie.net/luck-be-a-landlord/images/b/bd/Cultist.png/revision/latest/scale-to-width-down/24?cb=20210821153153) Chance to convert reduced (6.25% -> 5%), will no longer attempt to convert adjacent humans on the same turn this symbol becomes a cultist
+
+For modding compatibility, mod.gd now contains an array of symbols which will not be affected by the cultist. To add symbols from your mod to this group, add to this array, or run a similar patch over the human symbols you do not want affected.
+
 # Version 1.0.1
 - ![alt text](https://static.wikia.nocookie.net/luck-be-a-landlord/images/0/05/Cat.png/revision/latest/scale-to-width-down/24?cb=20210224153616) now destroys urns (does not effect big urns)
 

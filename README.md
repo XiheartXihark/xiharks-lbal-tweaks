@@ -1,6 +1,8 @@
 # xiharks-lbal-tweaks
 Base game tweaks for Luck Be A Landlord
 
+Install requires LuckyAPI found here: https://github.com/ValgoBoi/LuckyAPI
+
 To install, copy the xiharks-lbal-tweaks.zip (note, the included zip file, not a zip of this entire repo) into the mods folder located at %appdata%\Godot\app_userdata\Luck be a Landlord\mods for Windows (or the appropriate install path for other operating systems).
 
 # Version 1.0.2
